@@ -1,0 +1,91 @@
+/**index.wxss**/
+.header{
+    position: relative;
+    width: 93.7%;
+    height: 133rpx;
+    margin: 265rpx auto 0;
+    /* margin: 0 auto 0; */
+}
+.wan{
+    width:600rpx;
+    height:100rpx;
+    /* background:yellow; */
+    position:absolute;
+    left:50%;
+    bottom:229rpx;
+    margin-left:-300rpx;
+    z-index:99;
+}
+.wan .wanList{
+    width: 192rpx;
+    height: 256rpx;
+    margin:0 auto;
+    background: url('http://192.168.0.149/H5/dollMachine/pages/index/images/msg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.headerBg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 4
+}
+.headerBg image{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapPawer{
+    position:absolute;
+    top:100rpx;
+}
+.wrapPawer .pawer{
+    width:12px;
+    height: 33rpx;
+    margin: 0 auto;
+    background:url("http://192.168.0.149/H5/dollMachine/pages/index/images/bars.png");
+    background-size:100% 100%;
+    z-index:0;
+}
+.wrapPawer .pawerPic{
+    margin-top:-5rpx;
+}
+.wrapPawer .pawerPic .lose{
+    width: 169rpx;
+    height: 158rpx;
+}
+.wrapPawer .pawerPic .win{
+    width:199rpx;
+    margin:0 auto;
+    background:url("http://192.168.0.149/H5/dollMachine/pages/index/images/open.png");
+    background-size:100% auto;
+    overflow:hidden;
+    background-repeat:no-repeat;
+}
+.wrapPawer .pawerPic .win image{
+    width: 120rpx;
+    height: 120rpx;
+    margin: 0 auto;
+    margin-top: 88rpx;
+}
+.content{
+    width: 81.2%;
+    height: 827rpx;
+    margin: -86rpx auto 0;
+    background: url('http://192.168.0.149/H5/dollMachine/pages/index/images/body.png');
+    background-size: contain;
+    z-index: -1;
+}
+.content .showball{
+    position: relative;
+    bottom: -333rpx;
+    width: 529rpx;
+    height: 172rpx;
+}
+.content .start{
+    position: relative;
+    bottom:-364rpx;
+    right:-136rpx;
+    width:233rpx;
+    height:233rpx;
+}

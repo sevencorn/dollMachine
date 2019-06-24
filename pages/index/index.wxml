@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="header">
+        <view class="wan">
+            <view class="wanList">
+            </view>
+        </view>
+        <view class="headerBg">
+            <image class="top" src="images/header.png"></image>
+        </view>
+
+        <view class="wrapPawer" style="left:{{pawerLeft}}">
+            <view class="pawer" animation="{{animation}}"></view>
+            <view class="pawerPic">
+                <image class="lose" id="lose" src="images/close.png" wx:if="{{goShow}}"></image>
+                <view class="win" wx:if="{{!goShow}}">
+                    <image src="images/ball.png"></image>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="content">
+         <image class="showball" src="images/showball.png"></image> 
+
+        <image class="start" src="images/start.png" bindtap='start' wx:if="{{startImg}}"></image>
+        <image class="start" src="images/start.png" wx:if="{{!startImg}}"></image>
+    </view>
+</view>
